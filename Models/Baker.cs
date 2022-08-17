@@ -7,5 +7,12 @@ namespace DotnetBakery.Models
 {
     public class Baker 
     {
+        //PRIMARY Key, serial
+        public int id { get; set;}
+
+        [Required]//C# attribute
+        public string name {get; set;}
+
+        
     }
 }
